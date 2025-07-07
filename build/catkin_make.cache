@@ -1,0 +1,2 @@
+multi_drone
+-DCATKIN_DEVEL_PREFIX=/home/joao/multi_drone_ws/devel -DCMAKE_INSTALL_PREFIX=/home/joao/multi_drone_ws/install -G Unix Makefiles

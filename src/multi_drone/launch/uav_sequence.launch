@@ -1,0 +1,10 @@
+<launch>
+        
+  <!-- Launch multi_uav_sequence.py script -->
+  <node pkg="multi_drone" type="multi_uav_sequence.py" name="multi_uav_sequence" output="screen" />
+
+  <!-- Optionally, set parameters if needed -->
+  <!-- <param name="some_param" value="some_value" /> -->
+
+</launch>
+

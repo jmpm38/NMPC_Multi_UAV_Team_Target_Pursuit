@@ -1,0 +1,69 @@
+OCP_Parameters:
+  Standoff_distance: 10
+  T_max: 20.962
+  T_min: 0
+  U_ref:
+  - 9.81
+  - 0.0
+  - 0.0
+  - 0.0
+  alpha_h: 1.20427718
+  alpha_v: 0.733038286
+  desired_separation_angle: 2.0943951023931953
+  h_min: 4
+  pitch_max: 0.3
+  roll_max: 0.3
+  safety_distance: 2
+  z_axis_camera:
+  - 0
+  - 0
+  - 1
+  z_rotation_angle: -2.0943951
+Obstacle_Parameters:
+  obs_radius: 0.75
+  obstacles_positions:
+  - - 16.5
+    - 23.0
+  - - 19.5
+    - 25.0
+  - - 5.0
+    - 3.0
+  safety_radius: 2
+Optimization_Problem:
+  Decentralized: true
+  N_horizon: 15
+  dt: 0.2
+  formation_terms: true
+  fov_terms: true
+  sim_time: 240
+Target_Parameters:
+  target_initial_position:
+  - 20
+  - 20
+  - 0
+UAVs_Initial_State:
+  uav_num: 3
+  x_initials:
+  - - 0
+  - - 0
+  - - 5
+  - - 0
+  - - 0
+  - - 0
+  - - 0
+  - - 0
+  - - 0
+Weights:
+  Q1: 0.7
+  Q2:
+  - 10000
+  - 1000
+  - 1000
+  - 100000
+  Q3: 100000000
+  Q4: 1000
+  Q5: 4000000
+  Q6: 100000000
+  Q7: 1000000
+  Q8: 1000000
+

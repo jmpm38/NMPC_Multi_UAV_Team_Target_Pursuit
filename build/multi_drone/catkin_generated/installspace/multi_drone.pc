@@ -1,0 +1,8 @@
+prefix=/home/joao/multi_drone_ws/install
+
+Name: multi_drone
+Description: Description of multi_drone
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
