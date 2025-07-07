@@ -1,0 +1,10 @@
+<launch>
+        
+  <!-- Launch multi_uav_sequence.py script -->
+  <node pkg="irl_tests" type="single_uav_sequence.py" name="single_uav_sequence" output="screen" />
+
+  <!-- Optionally, set parameters if needed -->
+  <!-- <param name="some_param" value="some_value" /> -->
+
+</launch>
+

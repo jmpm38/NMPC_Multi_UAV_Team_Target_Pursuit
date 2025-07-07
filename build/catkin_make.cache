@@ -1,0 +1,2 @@
+irl_tests
+-DCATKIN_DEVEL_PREFIX=/home/joao/irl_tests/devel -DCMAKE_INSTALL_PREFIX=/home/joao/irl_tests/install -G Unix Makefiles

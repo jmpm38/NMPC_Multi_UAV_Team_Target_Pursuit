@@ -1,0 +1,8 @@
+prefix=/home/joao/irl_tests/install
+
+Name: irl_tests
+Description: Description of irl_tests
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
